@@ -1,15 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>React Slingshot</h1>
+      <h1>Thoughtful thoughts.</h1>
 
       <h2>Get Started</h2>
       <ol>
-        <li>Review the <Link to="/fuel-savings">demo app</Link></li>
-        <li>Remove the demo and start coding: npm run remove-demo</li>
+        <li>
+          Create <Link to="/fuel-savings">an account </Link>
+        </li>
+        <li>
+          Add an <Link to="/fuel-savings">thoughtful thought</Link>
+        </li>
       </ol>
     </div>
   );
